@@ -166,6 +166,12 @@ See the Runway
 [README.md](https://github.com/zalky/runway/blob/master/README.md) for
 more details on usage.
 
+## Acknowledgements
+
+Thanks to Lars Grefer for putting together the excellent
+[`dart-sass-java`](https://github.com/larsgrefer/dart-sass-java)
+embedded host!
+
 ## License
 
 Dart-sass-clj is distributed under the terms of the Apache License 2.0.
