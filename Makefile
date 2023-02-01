@@ -1,6 +1,6 @@
 .PHONY: sass
 
-version-number  = 0.2.0
+version-number  = 0.2.1
 group-id        = io.zalky
 artifact-id     = dart-sass-clj
 description     = An embedded dart-sass compiler and watch task for Clojure
