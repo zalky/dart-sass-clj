@@ -30,14 +30,14 @@ With that prerequisite out of the way, add the following dependency in
 your `deps.edn`:
 
 ```clj
-io.zalky/dart-sass-clj {:mvn/version "0.2.0"}
+io.zalky/dart-sass-clj {:mvn/version "0.2.1"}
 ```
 
 You should then be able to configure an alias that looks something
 like:
 
 ```clj
-{:sass {:extra-deps {io.zalky/dart-sass-clj {:mvn/version "0.2.0"}}
+{:sass {:extra-deps {io.zalky/dart-sass-clj {:mvn/version "0.2.1"}}
         :main-opts  ["-m" "dart-sass-clj.core"
                      "--source-dirs" "[\"src/scss/path\" \"other/scss\"]"
                      "--target-dir" "resources/assets/"
@@ -152,8 +152,8 @@ If you are using [Runway](https://github.com/zalky/runway), you can
 configure your alias via `:exec-args` instead:
 
 ```clj
-{:sass {:extra-deps {io.zalky/runway        {:mvn/version "0.2.0"}
-                     io.zalky/dart-sass-clj {:mvn/version "0.2.0"}}
+{:sass {:extra-deps {io.zalky/runway        {:mvn/version "0.2.2"}
+                     io.zalky/dart-sass-clj {:mvn/version "0.2.1"}}
         :exec-fn    runway.core/exec
         :exec-args  {dart-sass-clj.core/compile {:source-dirs  ["src/scss/"]
                                                  :target-dir   "resources/assets/"
